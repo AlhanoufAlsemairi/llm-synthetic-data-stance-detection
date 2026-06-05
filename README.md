@@ -91,6 +91,18 @@ Prompt engineering techniques and topic modeling were applied to improve data qu
 
 ---
 
+## Results Summary
+
+| Dataset                            | Model   | F1 Score |
+| ---------------------------------- | ------- | -------- |
+| Feminist Movement                  | RoBERTa | 0.70     |
+| Feminist Movement + Synthetic Data | RoBERTa | 0.73     |
+| COVID-19 Vaccine                   | RoBERTa | 0.84     |
+| Women's Empowerment (Arabic)       | AraBERT | 0.83     |
+
+These experiments demonstrate the potential of LLM-generated synthetic data for improving NLP model performance while highlighting challenges related to data quality and domain adaptation.
+
+
 ## Repository Structure
 
 ```text
